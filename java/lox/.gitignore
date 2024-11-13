@@ -1,0 +1,27 @@
+# Ignore compiled class files
+*.class
+
+# Ignore JAR files
+*.jar
+*.war
+*.ear
+
+# Ignore native library files (e.g., from JNI)
+*.dll
+*.so
+*.dylib
+
+# Ignore log files
+*.log
+
+# Ignore the build and output directories
+/out/
+/target/
+/build/
+
+# Ignore IDE-specific files (optional)
+*.iml
+*.project
+*.classpath
+.idea/
+*.vscode/
