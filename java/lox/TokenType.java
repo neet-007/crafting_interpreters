@@ -1,4 +1,4 @@
-package crafting_interpetrs_java;
+package crafting_interpetrs_java.lox;
 
 enum TokenType {
     // Single-character tokens.

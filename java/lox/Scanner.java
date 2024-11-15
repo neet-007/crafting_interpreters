@@ -1,11 +1,11 @@
-package crafting_interpetrs_java;
+package crafting_interpetrs_java.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static crafting_interpetrs_java.TokenType.*; 
+import static crafting_interpetrs_java.lox.TokenType.*; 
 
 
 class Scanner {

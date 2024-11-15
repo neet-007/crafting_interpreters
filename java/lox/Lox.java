@@ -1,4 +1,4 @@
-package crafting_interpetrs_java;
+package crafting_interpetrs_java.lox;
 
 import java.io.BufferedReader;
 import java.io.IOException;

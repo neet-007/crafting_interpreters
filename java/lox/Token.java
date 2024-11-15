@@ -1,4 +1,4 @@
-package crafting_interpetrs_java;
+package crafting_interpetrs_java.lox;
 
 class Token {
     final TokenType type;
@@ -13,6 +13,7 @@ class Token {
         this.line = line;
     }
 
+    @Override
     public String toString() {
         return type + " " + lexeme + " " + literal;
     }
