@@ -1,6 +1,6 @@
-package crafting_interpreters_java.lox;
+package lox;
 
-import static crafting_interpreters_java.lox.Expr.*; 
+import static lox.Expr.*; 
 
 class AstPrinter implements Expr.Visitor<String> {
   String print(Expr expr) {

@@ -1,6 +1,6 @@
-package crafting_interpreters_java.lox;
+package lox;
 
-import static crafting_interpreters_java.lox.TokenType.*; 
+import static lox.TokenType.*; 
 
 class RuntimeError extends RuntimeException {
   final Token token;

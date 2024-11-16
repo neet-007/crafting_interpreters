@@ -1,7 +1,6 @@
-package crafting_interpreters_java.lox;
+package lox;
 
-
-import static crafting_interpreters_java.lox.TokenType.*; 
+import java.util.List;
 
 abstract class Expr {
   interface Visitor<R> {
