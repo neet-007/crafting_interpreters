@@ -1,6 +1,7 @@
 lox/Stmt.java
 lox/LoxFunction.java
 lox/Expr.java
+lox/Resolver.java
 lox/Environment.java
 lox/RuntimeError.java
 lox/TokenType.java
