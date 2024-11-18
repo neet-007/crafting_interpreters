@@ -8,7 +8,9 @@ lox/TokenType.java
 lox/Return.java
 lox/Parser.java
 lox/Scanner.java
+lox/LoxClass.java
 lox/Interpreter.java
 lox/Lox.java
 lox/Token.java
+lox/LoxInstance.java
 lox/LoxCallable.java
