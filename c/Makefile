@@ -2,12 +2,14 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude -w  # Include the directory where exercise.h is located
 TARGET = main
-SRC_FILES = main.c memory.c debug.c chunk.c value.c vm.c # data_structure.c suffix_tree.c lcp_array.c  Add exercise.c as a source file
+
+# Automatically find all .c files in the current directory
+SRC_FILES = $(wildcard *.c)
 
 # Build target
 all: $(TARGET)
 
-# Compile the source files (main.c, exercise.c, munit.c) into the TARGET executable
+# Compile the source files into the TARGET executable
 $(TARGET): $(SRC_FILES)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRC_FILES)
 
