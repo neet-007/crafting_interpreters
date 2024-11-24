@@ -145,10 +145,6 @@ static void parsePrecedence(Precedence precedence) {
     }
 }
 
-static ParseRule* getRule(TokenType type) {
-  return &rules[type];
-}
-
 static void binary(){
     TokenType operatorType = parser.previous.type;
     ParseRule* rule = getRule(operatorType);
@@ -230,6 +226,10 @@ ParseRule rules[] = {
   [TOKEN_ERROR]         = {NULL,     NULL,   PREC_NONE},
   [TOKEN_EOF]           = {NULL,     NULL,   PREC_NONE},
 };
+
+static ParseRule* getRule(TokenType type) {
+  return &rules[type];
+}
 
 bool compile(const char *source, Chunk* chunk){
     initScanner(source);
